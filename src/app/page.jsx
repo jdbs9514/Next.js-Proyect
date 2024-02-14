@@ -1,4 +1,4 @@
-import Users from "@/components/Users";
+import Users from "@/src/components/Users";
 
 const fetchData = async () => {
   const res = await fetch('https://reqres.in/api/users');
